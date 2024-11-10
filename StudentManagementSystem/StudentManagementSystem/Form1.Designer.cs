@@ -96,7 +96,7 @@
             // btnDelete
             // 
             btnDelete.BackColor = Color.Red;
-            btnDelete.Location = new Point(642, 180);
+            btnDelete.Location = new Point(620, 180);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(75, 34);
             btnDelete.TabIndex = 6;
