@@ -46,7 +46,7 @@
             txtStudentID.Location = new Point(30, 45);
             txtStudentID.Name = "txtStudentID";
             txtStudentID.PlaceholderText = "Student ID";
-            txtStudentID.Size = new Size(200, 27);
+            txtStudentID.Size = new Size(200, 23);
             txtStudentID.TabIndex = 0;
             // 
             // txtName
@@ -54,7 +54,7 @@
             txtName.Location = new Point(30, 93);
             txtName.Name = "txtName";
             txtName.PlaceholderText = "Name";
-            txtName.Size = new Size(200, 27);
+            txtName.Size = new Size(200, 23);
             txtName.TabIndex = 1;
             // 
             // txtAge
@@ -62,7 +62,7 @@
             txtAge.Location = new Point(350, 45);
             txtAge.Name = "txtAge";
             txtAge.PlaceholderText = "Age";
-            txtAge.Size = new Size(200, 27);
+            txtAge.Size = new Size(200, 23);
             txtAge.TabIndex = 2;
             // 
             // txtCourse
@@ -70,7 +70,7 @@
             txtCourse.Location = new Point(350, 93);
             txtCourse.Name = "txtCourse";
             txtCourse.PlaceholderText = "Course";
-            txtCourse.Size = new Size(200, 27);
+            txtCourse.Size = new Size(200, 23);
             txtCourse.TabIndex = 3;
             // 
             // btnAdd
@@ -95,12 +95,13 @@
             // 
             // btnDelete
             // 
+            btnDelete.BackColor = Color.Red;
             btnDelete.Location = new Point(642, 180);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(75, 34);
             btnDelete.TabIndex = 6;
             btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
             // 
             // btnViewAll
@@ -139,25 +140,25 @@
             // dataGridViewTextBoxColumn1
             // 
             dataGridViewTextBoxColumn1.MinimumWidth = 10;
-            dataGridViewTextBoxColumn1.Name = "ID";
+            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             dataGridViewTextBoxColumn1.Width = 150;
             // 
             // dataGridViewTextBoxColumn2
             // 
             dataGridViewTextBoxColumn2.MinimumWidth = 10;
-            dataGridViewTextBoxColumn2.Name = "Name";
+            dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             dataGridViewTextBoxColumn2.Width = 150;
             // 
             // dataGridViewTextBoxColumn3
             // 
             dataGridViewTextBoxColumn3.MinimumWidth = 10;
-            dataGridViewTextBoxColumn3.Name = "Age";
+            dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             dataGridViewTextBoxColumn3.Width = 150;
             // 
             // dataGridViewTextBoxColumn4
             // 
             dataGridViewTextBoxColumn4.MinimumWidth = 10;
-            dataGridViewTextBoxColumn4.Name = "Course";
+            dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             dataGridViewTextBoxColumn4.Width = 150;
             // 
             // lblTotalStudents
@@ -165,7 +166,7 @@
             lblTotalStudents.AutoSize = true;
             lblTotalStudents.Location = new Point(30, 561);
             lblTotalStudents.Name = "lblTotalStudents";
-            lblTotalStudents.Size = new Size(106, 20);
+            lblTotalStudents.Size = new Size(84, 15);
             lblTotalStudents.TabIndex = 10;
             lblTotalStudents.Text = "Total Students:";
             // 
@@ -174,7 +175,7 @@
             lblAverageAge.AutoSize = true;
             lblAverageAge.Location = new Point(247, 561);
             lblAverageAge.Name = "lblAverageAge";
-            lblAverageAge.Size = new Size(98, 20);
+            lblAverageAge.Size = new Size(77, 15);
             lblAverageAge.TabIndex = 11;
             lblAverageAge.Text = "Average Age:";
             // 

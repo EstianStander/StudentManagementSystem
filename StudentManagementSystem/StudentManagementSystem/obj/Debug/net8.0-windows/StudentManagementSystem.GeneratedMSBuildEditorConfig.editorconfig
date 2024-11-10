@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentManagementSystem
-build_property.ProjectDir = C:\Users\Estia\source\repos\StudentManagementSystem\StudentManagementSystem\
+build_property.ProjectDir = C:\Users\Estia\source\repos\StudentManagementSystem\StudentManagementSystem\StudentManagementSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

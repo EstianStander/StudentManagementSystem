@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj": {}
+    "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj": {
+    "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
         "projectName": "StudentManagementSystem",
-        "projectPath": "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
+        "projectPath": "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
         "packagesPath": "C:\\Users\\Estia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Estia\\source\\repos\\StudentManagementSystem\\StudentManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\Estia\\Source\\Repos\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Estia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
